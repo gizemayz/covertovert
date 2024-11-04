@@ -1,4 +1,3 @@
-# icmp_receiver.py
 from scapy.all import *
 
 def is_packet(packet):
