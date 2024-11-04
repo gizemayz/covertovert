@@ -1,3 +1,5 @@
+# Dockerfile
+
 FROM ubuntu:22.04
 
 RUN \
@@ -18,10 +20,12 @@ RUN \
   pip3 install sphinx sphinx_rtd_theme && \
   rm -rf /var/lib/apt/lists/*
 
-ENV HOME /root
+# Correct ENV format
+ENV HOME=/root
 
 WORKDIR /root
 
-COPY README.md README.md
+# Copy the README and scripts
 
+# Default command to keep the container running
 CMD ["sleep", "infinity"]

@@ -8,7 +8,8 @@ Basic ICMP Documentation
 
 Please add your names and group ID here by editing `index.rst` in the docs folder.
 
-
+Gizem Ayaz 2521250
+Metehan Erdoğan 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
